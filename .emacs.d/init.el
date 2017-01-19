@@ -18,7 +18,8 @@
 ;;list of packages
 (defvar packages
   '(
-    evil))
+    evil
+    rainbow-delimiters))
 
 ;;if package is not downloaded, then grab it
 (dolist (p packages)

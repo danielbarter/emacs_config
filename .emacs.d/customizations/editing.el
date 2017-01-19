@@ -6,5 +6,11 @@
 (setq backup-directory-alist `(("." . ,(concat user-emacs-directory
                                                "backups"))))
 
+
+;; Highlights matching parens
+(show-paren-mode 1)
+
 ;;load evil mode on startup
 (evil-mode)
+
+(add-hook 'prog-mode-hook 'rainbow-delimiters-mode)

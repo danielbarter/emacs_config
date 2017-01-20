@@ -8,7 +8,8 @@
 (defvar packages
   '(
     evil
-    rainbow-delimiters))
+    rainbow-delimiters
+    markdown-mode))
 
 ;;if package is not downloaded, then grab it
 (dolist (p packages)

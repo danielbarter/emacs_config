@@ -9,7 +9,8 @@
   '(
     evil
     rainbow-delimiters
-    markdown-mode))
+    markdown-mode
+    haskell-mode))
 
 ;;if package is not downloaded, then grab it
 (dolist (p packages)

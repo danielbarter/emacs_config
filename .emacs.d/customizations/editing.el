@@ -13,4 +13,8 @@
 ;;load evil mode on startup
 (evil-mode)
 
+;; rainbow parens everywhere
 (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
+
+;; enable interactive haskell mode
+(add-hook 'haskell-mode-hook 'interactive-haskell-mode)

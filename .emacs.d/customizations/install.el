@@ -11,7 +11,7 @@
     rainbow-delimiters
     markdown-mode
     haskell-mode
-    geiser))
+    racket-mode))
 
 ;;if package is not downloaded, then grab it
 (dolist (p packages)

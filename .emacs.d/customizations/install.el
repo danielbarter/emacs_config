@@ -10,7 +10,8 @@
     evil
     rainbow-delimiters
     markdown-mode
-    haskell-mode))
+    haskell-mode
+    geiser))
 
 ;;if package is not downloaded, then grab it
 (dolist (p packages)

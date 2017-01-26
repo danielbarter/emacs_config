@@ -11,7 +11,6 @@
     rainbow-delimiters
     markdown-mode
     haskell-mode
-    racket-mode
     elm-mode))
 
 ;;if package is not downloaded, then grab it

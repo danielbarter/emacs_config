@@ -23,3 +23,6 @@
 
 ;; Hard-to-categorize customizations
 (load "misc.el")
+
+;;since we are installing elm into a funny place, we need to tell emacs
+(load "elmPath.el")

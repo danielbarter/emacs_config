@@ -8,6 +8,7 @@
 (defvar packages
   '(
     evil
+    geiser
     rainbow-delimiters
     markdown-mode
     haskell-mode))
